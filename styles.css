@@ -1,1 +1,38 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
+.scheduler-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.scheduler-table th,
+.scheduler-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.contract-box {
+  border: 1px solid #aaa;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.assign-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
